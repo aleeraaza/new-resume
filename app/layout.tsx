@@ -22,9 +22,9 @@ const helvetica = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vipul Kumar • Developer",
+  title: "Ali Raza | Full Stack Developer",
   description:
-    "Vipul Kumar is a developer who creates beautiful and pixel perfect websites with zero effort in reviews.",
+    "Ali Raza is a Full Stack developer who builds SEO-optimized, production-ready web applications with pixel-perfect frontends and scalable backends that work flawlessly from day one.",
 };
 
 export default function RootLayout({
