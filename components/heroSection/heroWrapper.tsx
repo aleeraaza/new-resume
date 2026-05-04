@@ -8,15 +8,15 @@ export function HeroWrapper({}) {
       <HeroButton />
       <h2 className="left mask pointer-events-none z-20 pt-20">
         <div className="free anime">
-          Freelance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          DEVELOPER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <div className="animation__wrapper anime">
           <span className="animate__this animate__this1 left-0">
-            Webflow Developer<span className="yellow__it">.</span>
+            Full Stack Developer<span className="yellow__it">.</span>
             <br />
           </span>
           <span className="animate__this animate__this2 left-0">
-            Next.js Developer<span className="yellow__it">.</span>
+            Software Engineer<span className="yellow__it">.</span>
           </span>
           <span>&nbsp;</span>
         </div>

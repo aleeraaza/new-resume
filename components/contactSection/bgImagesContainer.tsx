@@ -10,19 +10,19 @@ import { getRandRgb, getRandValues, shuffle } from "@/lib/utils";
 const bgImagesData = [
   {
     id: 1,
-    imgLink: "/svg_logo/after-effects-logo.svg",
+    imgLink: "/svg_logo/nodejs.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 2,
-    imgLink: "/svg_logo/attributes-logo.svg",
+    imgLink: "/svg_logo/redis.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 3,
-    imgLink: "/svg_logo/client-first-logo.svg",
+    imgLink: "/svg_logo/prisma.svg",
     title: "",
     subtitle: "",
   },
@@ -34,19 +34,19 @@ const bgImagesData = [
   },
   {
     id: 5,
-    imgLink: "/svg_logo/framer-logo.svg",
+    imgLink: "/svg_logo/fastapi.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 6,
-    imgLink: "/svg_logo/gsap-logo.svg",
+    imgLink: "/svg_logo/mongodb.png",
     title: "",
     subtitle: "",
   },
   {
     id: 7,
-    imgLink: "/svg_logo/mailchimp-logo.svg",
+    imgLink: "/svg_logo/postgres.svg",
     title: "",
     subtitle: "",
   },
@@ -58,37 +58,13 @@ const bgImagesData = [
   },
   {
     id: 9,
-    imgLink: "/svg_logo/photoshop-logo.svg",
-    title: "",
-    subtitle: "",
-  },
-  {
-    id: 10,
     imgLink: "/svg_logo/react-logo.svg",
     title: "",
     subtitle: "",
   },
   {
-    id: 11,
-    imgLink: "/svg_logo/spline-logo.svg",
-    title: "",
-    subtitle: "",
-  },
-  {
-    id: 12,
-    imgLink: "/svg_logo/rive-logo.svg",
-    title: "",
-    subtitle: "",
-  },
-  {
-    id: 13,
+    id: 10,
     imgLink: "/svg_logo/typescript-logo.svg",
-    title: "",
-    subtitle: "",
-  },
-  {
-    id: 14,
-    imgLink: "/svg_logo/webflow-logo.svg",
     title: "",
     subtitle: "",
   },
@@ -126,7 +102,7 @@ export const BgImagesContainer = ({
   shuffle(bgImagesData);
 
   const bgImagesTween = useRef<gsap.core.Tween | null>(null);
-  const GAP = 6;
+  const GAP = 9;
   useEffect(() => {
     bgImagesTween.current = gsap.fromTo(
       ".bgImages",
@@ -143,7 +119,10 @@ export const BgImagesContainer = ({
         y: "-50%",
         x: "0%",
         left: function (index, target, targets) {
-          return 90 + index * -GAP + "%";
+          const total = targets.length;
+          const totalWidth = (total - 1) * GAP;
+          const start = 50 - totalWidth / 2; // center the whole spread around 50%
+          return start + index * GAP + "%";
         },
         top: function (index, target, targets) {
           return getRandDistrubutedTop(index, targets) + "%";

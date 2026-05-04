@@ -7,16 +7,16 @@ export function Intro({}) {
   useEffect(() => {
     const introContainer = document.querySelector("#intro") as HTMLElement;
     const logo_animation = document.querySelector("#logo_animation");
-    const vipul = document.querySelector(
+    const ali = document.querySelector(
       "#intro > div.animation__container > svg",
     );
-    if (vipul) {
-      // console.log(vipul);
+    if (ali) {
+      // console.log(ali);
 
-      // vipul.onmousemove = () => {
+      // ali.onmousemove = () => {
       //   console.log("move");
       // };
-      vipul.addEventListener("mousemove", () => {
+      ali.addEventListener("mousemove", () => {
         console.log("click");
       });
     }

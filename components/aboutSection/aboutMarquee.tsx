@@ -67,10 +67,10 @@ export const InnerMarquee = ({ className }: InnerMarqueeProps) => {
   return (
     <div className={cn("slider-inner slider ", className)}>
       <div className="img-wrapper">
-        <NextIcon />
+        <TailwindIcon />
       </div>
       <div className="img-wrapper">
-        <TailwindIcon />
+        <NextIcon />
       </div>
       <div className="img-wrapper">
         <TypescriptIcon className="h-[90%]" />

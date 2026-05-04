@@ -11,63 +11,64 @@ const projectsData = [
   {
     title: (
       <>
-        YieldStone <br /> Page
+        eSIMCARD <br /> Marketplace
       </>
     ),
-    description: "Webflow Site",
-    link: "https://www.yieldstone.ai/",
-    imageLink: "/img/projects/1.avif",
+    description: "Buy and manage eSIM cards for global travel instantly.",
+    link: "https://esimcard.com/",
+    imageLink: "/img/projects/esimcard-proj.png",
   },
   {
     title: (
       <>
-        Simple Font <br /> Replacer
+        SearchAtlas <br /> SEO
       </>
     ),
-    description: "Figma Plugin",
-    link: "https://www.figma.com/community/plugin/1380643582596908985/simple-font-replacer",
-    imageLink: "/img/projects/2.avif",
+    description: "All-in-one SEO platform for agencies and digital marketers.",
+    link: "https://searchatlas.com/",
+    imageLink: "/img/projects/searchatlas-proj.png",
   },
   {
     title: (
       <>
-        Andy PFP <br /> Generator
+        Yaalo <br /> eSIM
       </>
     ),
-    description: "Next.js Site",
+    description: "Buy eSIM data plans for travel, worldwide coverage.",
     link: "https://generator.andytoken.com/",
-    imageLink: "/img/projects/3.avif",
+    imageLink: "/img/projects/yaalo-proj.png",
   },
   {
     title: (
       <>
-        PonkeSol <br /> Page
+        Reseller & Dealer
+        <br /> Portal
       </>
     ),
-    description: "Webflow Site",
+    description: "Dealers and Resellers Dashboard for our all eSIM Products.",
     link: "https://ponkecoin-ninetyeight.webflow.io/",
-    imageLink: "/img/projects/4.avif",
+    imageLink: "/img/projects/portal-proj.png",
   },
 
   {
     title: (
       <>
-        AmanFX <br /> Portfolio
+        Muze <br /> Collab
       </>
     ),
-    description: "Webflow Site",
-    link: "https://amanfx.webflow.io/",
-    imageLink: "/img/projects/5.avif",
+    description: "Next Js Website",
+    link: "https://example.com/",
+    imageLink: "/img/projects/muze-proj.jpeg",
   },
   {
     title: (
       <>
-        Therapist <br /> Website
+        Brain <br /> Archive AI
       </>
     ),
-    description: "UI Design",
-    link: "https://www.figma.com/proto/Tzz9bwrjHtSza87b1l3D0i/Inner-Strength-UI-Design?type=design&node-id=37-10&t=pq2KDLjYbMU4LFgA-1&scaling=min-zoom&page-id=0%3A1&mode=design",
-    imageLink: "/img/projects/6.avif",
+    description: "Full Stack Web App",
+    link: "https://example.com",
+    imageLink: "/img/projects/brain-proj.png",
   },
 ];
 //test
