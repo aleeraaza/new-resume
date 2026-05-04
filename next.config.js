@@ -7,6 +7,12 @@ const nextConfig = {
     return [
       {
         source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "ali-raza-resume.vercel.app",
+          },
+        ],
         destination: "https://new-resume-smoky.vercel.app/:path*",
         permanent: true,
       },
