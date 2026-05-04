@@ -13,7 +13,7 @@ const nextConfig = {
             value: "ali-raza-resume.vercel.app",
           },
         ],
-        destination: "https://new-resume-smoky.vercel.app/:path*",
+        destination: "https://ali-raza-full-stack-resume.vercel.app/:path*",
         permanent: true,
       },
     ];

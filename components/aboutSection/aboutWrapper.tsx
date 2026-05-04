@@ -13,13 +13,13 @@ import { isDesktop } from "@/lib/utils";
 export function AboutWrapper({}) {
   const [text, setText] = useState({
     main: "Featured Work",
-    para: `Building high-end, pixel-perfect websites for agencies and individuals while creating high quality rebuilds in my free time.`,
+    para: `Full Stack Developer with 2+ years building production apps across telecom, SaaS, and e-commerce — specialized in Next.js, Node.js, TypeScript, and performance engineering.`,
   });
   useEffect(() => {
     if (!isDesktop()) {
       setText({
         main: "Recent Work",
-        para: `Building high-end websites with agencies and individuals while creating rebuilds in my free time.`,
+        para: `Full Stack Developer with 2+ years building production apps across telecom, SaaS, and e-commerce — specialized in Next.js, Node.js, TypeScript, and performance engineering.`,
       });
     }
   }, []);
